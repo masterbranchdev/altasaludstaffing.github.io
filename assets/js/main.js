@@ -374,27 +374,27 @@
 	// 16. Swiper Js
 	var brandswiper = new Swiper('.brand-slider-active', {
 		loop: true,
-		slidesPerView: 6,
+		slidesPerView: 3,
         spaceBetween: 30,
-		autoplay: {
-			delay: 2500,
-			disableOnInteraction: true,
-		},
+		// autoplay: {
+		// 	delay: 2500,
+		// 	disableOnInteraction: true,
+		// },
 		breakpoints: {
 			'1200': {
-				slidesPerView: 6,
+				slidesPerView: 3,
 			},
 			'992': {
-				slidesPerView: 5,
+				slidesPerView: 3,
 			},
 			'768': {
-				slidesPerView: 4,
+				slidesPerView: 3,
 			},
 			'576': {
 				slidesPerView: 3,
 			},
 			'0': {
-				slidesPerView: 2,
+				slidesPerView: 3,
 			},
 		},
 		navigation: {
@@ -845,7 +845,7 @@
 		// $(".vid-play-btn)").on("click", function () {
 		// 	$(".vid-play-btn").removeClass("open");
 		// });
-	
+
 
 
 
