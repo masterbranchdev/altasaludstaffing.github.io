@@ -16029,7 +16029,7 @@ footer {
 /* Media query para pantallas pequeñas (teléfonos) */
 @media (max-width: 768px) {
 .work .img {
-height: 600px; / Cambia la altura a 800px en dispositivos pequeños */
+height: 520px; / Cambia la altura a 800px en dispositivos pequeños */
   }
 }
 
