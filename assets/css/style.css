@@ -3351,7 +3351,14 @@ input[type=color] {
   position: absolute;
 }
 .tp-logo img {
-  width: 220px;
+  width: 220px; /* Ancho por defecto para pantallas grandes */
+}
+
+/* Media query para pantallas pequeñas (teléfonos) */
+@media (max-width: 768px) {
+.tp-logo img {
+width: 160px; / Cambia el ancho a 160px en dispositivos pequeños */
+}
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
